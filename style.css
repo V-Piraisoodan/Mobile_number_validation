@@ -110,28 +110,35 @@ body{
     margin: 20px 15px 15px 25px;
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 320px) {
     .container{
         flex-direction:column; 
-        background-size: 320%;
+        background-size: 370%;
         background-repeat: no-repeat;
     }
     .input-field{
         display: flex;
-        margin-top: 3px;
+        margin-top: 0px;
         width: 84%;
         height: 35%;
         border: 1px solid rgb(50, 53, 250);
         border-radius: 30px;
     }
     .heading{
-        font-size: 23px;
+        font-size: 20px;
         margin-top: -10px;
     }
     .input{
-        font-size: 19px;
+        font-size: 17px;
         margin-top: -38px;
         padding: 5px 5px 0px 5px;
+    }
+    .input1{
+        font-size: 15px;
+    }
+    .phone{
+        width: 90%;
+        height: 250px;
     }
     .error{
        margin-top: -5px;
@@ -140,8 +147,8 @@ body{
 
     }
     .btn{
-        height: 80%;
-        width: 180px;
+        height: 180%;
+        width: 150px;
         font-size: 25px;
         margin-top: 5px;
         margin-bottom: 25px;
@@ -149,7 +156,7 @@ body{
     }
     .output-field{
         display: flex;
-        width: 92%;
+        width: 97%;
         height: 400px;
         align-items: flex-start;
         justify-content: center;   
@@ -157,8 +164,8 @@ body{
     }
     .text-field{
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 20px;
-        margin-top: 8px;
+        font-size: 16px;
+        margin-top: 7px;
        
     }
 }
